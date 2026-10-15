@@ -1,0 +1,31 @@
+# Installed dependencies
+node_modules/
+
+# Build output
+/dist/
+/build/
+/coverage/
+
+# Environment files and private local settings
+.env
+.env.*
+!.env.example
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Exported business records and local backup files
+garage-manager-backup-*.json
+garage-data-summary.csv
+backups/
